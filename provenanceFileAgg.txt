@@ -2,5 +2,4 @@ provenance,executed
 syn7253793,FALSE
 https://github.com/blogsdon/metanetwork/commit/544c830ebe20cfdcd97505d5df0bfa03ae8f8f06,TRUE
 https://github.com/blogsdon/metanetworkSynapse/commit/3bc557f36bcaebe6811e22c1e6027eb4dda5a0b4,TRUE
-https://github.com/blogsdon/brainRegNetwork/blob/428dbf8a855c222b783d5cd988dd5518d3a80de1/runMnExpression1.sh,TRUE
-https://github.com/blogsdon/brainRegNetwork/blob/428dbf8a855c222b783d5cd988dd5518d3a80de1/getData.R,TRUE
+https://github.com/blogsdon/brainRegNetwork/blob/321d4e6e5533e104de1dd4181ace9fb2d87b1627/buildConsensus.sh,TRUE
