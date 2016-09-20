@@ -15,7 +15,7 @@ pathv="/shared/metanetworkSynapse/"
 outputpath="/local/brainRegNetwork/"
 
 #path within s3
-s3b="brainRegNetwork/Full/DLPFC"
+s3b="brainRegNetwork"
 
 #id of folder with networks to combine
 networkFolderId="syn7255211"
