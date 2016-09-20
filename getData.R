@@ -5,7 +5,7 @@ synapseLogin()
 library(data.table)
 library(dplyr)
 
-fooObj = synGet('syn7248252')
+fooObj = synGet('syn7253793')
 #exprMat = fread(fooObj@filePath,data.table=F)
 exprMat = read.delim(fooObj@filePath,row.names=1,stringsAsFactors=F) %>%
           data.matrix %>%
