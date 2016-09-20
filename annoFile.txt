@@ -1,0 +1,4 @@
+fileType,csv
+dataType,analysis
+analysisType,statisticalNetworkReconstruction
+study,metanetwork
