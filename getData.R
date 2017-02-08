@@ -9,7 +9,10 @@ library(dplyr)
 
 fooObj = synGet(synId)
 #exprMat = fread(fooObj@filePath,data.table=F)
-exprMat = read.delim(fooObj@filePath,row.names=1,stringsAsFactors=F) %>%
+exprMat <- fread(fooObj@filePath,data.table=F)
+rownames(exprMat) <- exprMat[,1]
+exprMat <- exprMat[,-1]
+exprMat = exprMat %>%
           data.matrix %>%
           t %>%
           apply(2,utilityFunctions::winsorize) %>%
